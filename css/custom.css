@@ -1,0 +1,176 @@
+﻿@charset "utf-8";
+/************************* 
+  CSS Doc.
+	Written by
+	SolveStation 
+**************************/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url("bootstrap.min.css");
+@import url("../font-awesome/css/font-awesome.css");
+@import url("animate.css");
+
+body {
+  font-family: 'Lato', serif;
+}
+
+.radial-gradient {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    /*Fallback if gradeints don't work 
+  background: #9b59b6;
+  /*Linear gradient... */
+    background: radial-gradient( at center, blueviolet, cornflowerblue );
+}
+
+p {
+  font-size: 16pt;
+  font-weight: bold;
+  color: #fff;
+}
+
+h4 {
+  color: #ffffff;
+}
+
+.text-grey {
+  color: #dddddd;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+i {
+  text-shadow: 0 0 2px #ffffff, 0 0 2px #dddddd;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 879px; 
+  height: auto;
+}
+
+.bg {
+  background: url(../img/back.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.text-muted {
+  color: #228B22;
+  font-weight: bold;
+}
+
+.total {
+  color: #ff0000;
+}
+
+/**
+  Form Styling
+**/
+.centered-form {
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.centered-form2 {
+  max-width: 450px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.border {
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+
+.formHead{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #228B22;
+  text-shadow: 1px 1px 2px #CCC, 0 0 25px #CCC, 0 0 5px #DDD;
+  text-overflow: hidden;
+}
+
+.form-control {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #d2d6de;
+}
+.form-control:focus {
+  border-color: #3c8dbc;
+  box-shadow: none;
+}
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::-webkit-input-placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+.form-control:not(select) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+textarea{
+  height: 100px !important;
+}
+
+
+/*
+** Button Style 
+*/
+.btn {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn.btn-primary {
+  background: #228B22;
+  color: #fff;
+  border: none !important;
+  border: 2px solid transparent !important;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+  box-shadow: none;
+  background: #393e46;
+  color: #fff !important;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  background: #FCC72C !important;
+  color: #fff;
+  outline: none !important;
+}
+
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
+  border-color: transparent;
+}
+
+/** List style **/
+ul.list-group li.list-group-item {
+  font-size: 17px;
+  color: #0C0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
